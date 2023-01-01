@@ -1,6 +1,11 @@
-# MaTrixies
+# MathTrixs
 
-Free software for generation of Mathematical examples with solutions. Currently main goal is to implement Matrix operations.
+<div align="center">
+    <img src="resources/Trixie.png"/>
+</div>
+
+Free software for Great And Powerful generation of Mathematical examples with solutions. Currently mainly focused on Matrix
+operations.
 
 ## Project Goals
 
@@ -9,16 +14,15 @@ This project has several goals:
 - Simplicity above everything:
   - Performance is not a concern unless it's real bad
   - Most straight-forward implementation possible
-  - The point is not to be able to compute huge amount of huge numbers as quickly as possible but to help humans practice ideally
+  - The point is not to be able to compute huge amount of huge numbers as quickly as possible but to help humans practice, ideally
     be able to guide them step by step
 - Portability - We want to work in:
   - JVM
   - Web - ClojureScript
-  - .NET
-- Ability to export Examples in multiple formats (LaTeX, edn)
-- Allow for calculation of examples created outside of this Software (Imported from edn, LaTeX, STDIN)
+  - .NET (Clojure CLR)
+- Ability to export Examples in multiple formats (LaTeX, edn, txt)
+- Allow for calculation of examples created outside of this Software (Imported from edn, LaTeX, custom simple text format)
 - Support more example types than Matrices
-
 
 ## Why
 
