@@ -4,7 +4,7 @@
 (defn valid?
   "Checks whether given matrix is valid"
   [m]
-  ;;Checks m only contains vectors and
+  ;;Checks if m only contains vectors and
   ;;these vectors only contain numbers
   ;;All inner vectors must have the same length
   (and
@@ -15,4 +15,11 @@
      (every? (fn [x]
              (and (= len (count x))
                   (every? number? x))) m))))
+
+(defn rectangular?
+  "Check whether given matrix is rectangular"
+  [m]
+  (and
+   (valid? m)
+   (= (count m) (count (first m)))))
 
