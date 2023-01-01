@@ -1,4 +1,4 @@
-(ns matrixies.matrix
+(ns mathtrixs.matrix
   (:gen-class))
 
 (defn valid?

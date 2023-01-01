@@ -1,4 +1,5 @@
-(ns matrixies.core
+(ns mathtrixs.core
+  (:require [mathtrixs.matrix :as m])
   (:gen-class))
 
 (defn -main
