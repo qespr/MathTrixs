@@ -1,44 +1,30 @@
-# matrixies
+# MaTrixies
 
-FIXME: description
+Free software for generation of Mathematical examples with solutions. Currently main goal is to implement Matrix operations.
 
-## Installation
+## Project Goals
 
-Download from http://example.com/FIXME.
+This project has several goals:
 
-## Usage
+- Simplicity above everything:
+  - Performance is not a concern unless it's real bad
+  - Most straight-forward implementation possible
+  - The point is not to be able to compute huge amount of huge numbers as quickly as possible but to help humans practice ideally
+    be able to guide them step by step
+- Portability - We want to work in:
+  - JVM
+  - Web - ClojureScript
+  - .NET
+- Ability to export Examples in multiple formats (LaTeX, edn)
+- Allow for calculation of examples created outside of this Software (Imported from edn, LaTeX, STDIN)
+- Support more example types than Matrices
 
-FIXME: explanation
 
-    $ java -jar matrixies-0.1.0-standalone.jar [args]
+## Why
 
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+I couldn't find any Free software for generating Math examples and their solutions beyond super basic stuff (maybe I'm just
+blind). Also I learn Math best by implementing it programatically and I need to learn Matrices.
 
 ## License
 
-Copyright © 2023 FIXME
-
-This program and the accompanying materials are made available under the
-terms of the Eclipse Public License 2.0 which is available at
-http://www.eclipse.org/legal/epl-2.0.
-
-This Source Code may also be made available under the following Secondary
-Licenses when the conditions for such availability set forth in the Eclipse
-Public License, v. 2.0 are satisfied: GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or (at your
-option) any later version, with the GNU Classpath Exception which is available
-at https://www.gnu.org/software/classpath/license.html.
+Licensed under [GNU Affero general public license](https://www.gnu.org/licenses/agpl-3.0.en.html)
